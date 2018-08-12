@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0da3ed;
+    color: #eeeeee;
+    padding: 0 1.5rem;
+
+    &__social-li{
+        list-style: none;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    justify-content: center;
+
+    & *{
+        margin: 1rem .25rem 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .form{
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+}

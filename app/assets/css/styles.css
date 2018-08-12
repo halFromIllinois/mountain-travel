@@ -5,4 +5,6 @@
 @import "components/_header.css";
 @import "components/_main-section.css";
 @import "components/_package-item.css";
-@import "components/_quote.css"
+@import "components/_quote.css";
+@import "components/_form.css";
+@import "components/_footer.css";
