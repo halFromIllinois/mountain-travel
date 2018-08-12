@@ -1,0 +1,8 @@
+.package-item{
+    text-align: center;
+
+    &__icon{
+        color: $mainBlue;
+        opacity: 0.6;
+    }
+}
